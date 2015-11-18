@@ -2,7 +2,7 @@
 
 Welcome to Liline's Portfolio Page
 http://liline.github.io
-(https://github.com/liline/liline.github.io/blob/master/images/Muffet.gif "Muffet sees all")
+![alt text](https://github.com/liline/liline.github.io/blob/master/images/Muffet.gif "Muffet sees all")
 
 ***
 
