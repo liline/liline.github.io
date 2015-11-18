@@ -1,0 +1,271 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	color: #444444;
+	font-family: Helvetica, Arial, sans-serif;
+}
+h1 {
+	font-size: 48px;
+}
+h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 20px;
+}
+h1, h2, h3 {
+	font-family: 'Indie Flower', sans-serif;
+}
+p {
+	line-height: 1.4;
+	font-size: 15px;
+}
+.my-container {
+	padding: 50px 100px;
+}
+.my-container h2, 
+.my-container h3 {
+	color: #A8258D;
+}
+a {
+	color: #A8258D;
+	text-decoration: none;
+}
+a:hover {
+	color: #CF86ED;
+	text-decoration: none;
+}
+
+
+/* PAGE MENU
+-----------------------------------------*/
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid #434A5C;
+	background: #222;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 5;
+	font-size: 1.3rem;
+}
+.menu li {
+	display: inline-block;
+	/*padding: 20px 35px;*/
+}
+.menu a {
+	text-decoration: none;
+	color: #E8D8EF;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Indie Flower', sans-serif;
+}
+.navbar {
+	background-color: #222;
+}
+
+.navbar-nav {
+	font-family: 'Indie Flower', sans-serif;
+	font-size: 1.5rem;
+}
+.navbar-nav li {
+	padding-left: 30px;
+}
+
+.navbar .navbar-nav .active a {
+	border-radius: 0;
+	color: white;
+	background-color: #7CAFF5;
+}
+.navbar #nav > .active > a {
+	color: red;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+/* BANNER 
+-----------------------------------------*/
+.logo {
+	margin: 0 auto;
+	display: block;
+	font-size:5rem;
+	color: #FBE2FE;
+}
+img.profile {
+	border: 1px solid grey;
+	width: 300px;
+	height: auto;
+	padding: 5px;
+	float: left;
+	margin-right: 20px;
+}
+
+.banner {
+	padding-top: 150px;
+	padding-bottom: 100px;
+	background: url('../images/forest.jpg') ;
+	color: #ffffff;
+	text-align: center;
+	background-size: cover
+}
+.banner h1 {
+	margin-bottom: 10px;
+	font-size: 5rem; 
+}
+.banner p {
+	font-size: 22px;
+}
+.tagline {
+	color: #FBE2FE;
+}
+
+
+/* ABOUT
+-----------------------------------------*/
+.about {
+	background: url('../images/foxtail.png');
+	overflow: hidden;
+}
+.about h2 {
+	text-align: center;
+	padding-bottom: 30px;
+
+}
+.favourites {
+	text-align: center;
+}
+
+
+/* What I do 
+-----------------------------------------*/
+.whatIDo {
+	background: url('../images/foxtail.png');
+	overflow: hidden;
+}
+.whatIDo h2 {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.whatIDo h3 {
+	text-align: center;
+}
+
+.whatIDo .fa-stack{
+	text-align: center;
+	position: initial;
+}
+
+/* Projects 
+-----------------------------------------*/
+.projects h2 {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.project-container { 
+	text-align: center; 
+}
+.projects ul { 
+	display: inline-block; 
+	text-align: left; 
+}
+
+.project-description {
+	padding-bottom: 30px;
+}
+
+/* FAVOURITES 
+-----------------------------------------*/
+.favourites {
+	position: relative;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+.favourites:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0.8;
+	background-image: url('../images/forest2.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.highopa-favs{
+	z-index:2;
+	position:relative;
+}
+.favourites h2 {
+	z-index: 2;
+} 
+.fav-img {
+	border: 2px solid #FCDCF5;
+	border-radius: 30%;
+	width: 200px;
+	padding: 5px;
+	margin: 10px;
+	vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+	.extra-fun{
+		display:none;
+	}
+}
+
+/* CONTACT 
+-----------------------------------------*/
+.contact {
+	text-align: center;
+	background: url('../images/tile2.png');
+}
+.contact img {
+	margin: 20px;
+}
+
+
+/* CUSTOM STUFF 
+------ */
+.menu a.active {
+	color: #A8258D;
+}
+
+
+.flexslider-wrap {
+	width: 50%; /* makes the slider 50% of its container */
+	margin: 0 auto; /* center aligns the slider */
+}
+
+/* CREDITS
+------ */
+.credits h2 {
+	text-align: center;
+}
+.credit-list {
+	text-align: center
+}
