@@ -4,8 +4,11 @@ Liline
 /* THANKS */
 * Friends and coworkers 
 * Ladies Learning Code Community
+
+/* THANKS ASSETS */
 * Sonic the Hedgehog concept art  SEGA 
 * Undertale GIFS  Toby Fox
+* foxtail texture| DinPattern.com | EvanEckard.com
 
 /* SITE */
 Last update: Nov 2015
