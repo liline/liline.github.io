@@ -311,7 +311,8 @@ img.profile {
 
 	/* nav bar*/
 	.nav li {
-		font-size: 2rem;
+		font-size: 3rem;
+		padding: 10px;
 	}
 
 	.navbar-toggle .icon-bar {
