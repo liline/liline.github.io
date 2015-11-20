@@ -3,6 +3,7 @@
 <head>
 	<title> Liline </title>
   <base target="_blank">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
   <!-- jQuery starts here -->
   <script src="js/jquery-1.11.1.min.js"></script>
   <script src="js/jquery.flexslider-min.js"></script>
@@ -50,7 +51,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#about" target="_self">About</a></li>
+        <li class="active"><a href="#about" target="_self">About<span class="sr-only">(current)</span></a></li>
         <li><a href="#whatIDo" target="_self">What I Do</a></li>
         <li><a href="#projects" target="_self">Projects</a></li>
         <li><a href="#fun" target="_self">Fun</a></li>
@@ -129,7 +130,7 @@
         <p> <b>Role: </b> Coding, Managing Team</p>
       </div>
 
-      <li> <a href="http://sta.sh/02avwynp71ef">Megaman Fan Game</a> </li>
+      <li> <a href="http://sta.sh/02avwynp71ef">Megaman Fan Game</a> (<a href="http://www.kongregate.com/games/LadyLiline/fefnir-mini-game_preview?guest_access_key=899fef8e86bb56a1a28e5164ae09b721725b1f746048881c9c44d96074538840">mirror link </a>)</li>
       <div class="project-description">
         <p> <b>About: </b> Part of a larger Megaman Project featuring collaboration from voice actors and artists</p>
         <p> <b>Role:</b> Coding, Story scripting</p>
@@ -146,28 +147,26 @@
 </section>
 
 <section id="fun" class="favourites my-container">
-  <div class="highopa-favs">
+<div class="highopa-favs container-fluid">
     <h2>Fun</h2>
 
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-4 col-xs-6">
         <img class="fav-img" src="images/puppy.jpg">
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 col-xs-6">
         <img class="fav-img" src="images/props.jpg">
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 col-xs-6">
         <img class="fav-img" src="images/hiking.jpg">
       </div>
-    </div>
-    <div class="row extra-fun">
-      <div class="col-sm-4">
+      <div class="col-sm-4 col-xs-6">
         <img class="fav-img" src="images/art.jpg">
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 col-xs-6">
         <img class="fav-img" src="images/sheetmusic.jpg">
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 col-xs-6">
         <img class="fav-img" src="images/gaming.gif">
       </div>
     </div>
@@ -176,17 +175,18 @@
 
 <section id="contact" class="contact my-container">
   <h2>Contact Me</h2>
-      <a href="mailto:lilinefrost@gmail.com"><i class="fa fa-envelope-o fa-5x"></i></a> 
-      <a href="http://www.github.com/liline"><i class="fa fa-github fa-5x"></i></a>
-  </section>
+  <a href="mailto:lilinefrost@gmail.com"><i class="fa fa-envelope-o fa-5x"></i></a> 
+  <a href="http://www.github.com/liline"><i class="fa fa-github fa-5x"></i></a>
+</section>
 
-  <section id="credits" class="credits my-container">
-    <h2> Credits </h2>
 
-    <div class="credit-list">
-      Sonic the Hedgehog concept art <i class="fa fa-copyright"></i> <a href="http://www.sega.com/"> SEGA</a> | Undertale GIFS <i class="fa fa-copyright"></i> <a href="http://tobyfox.net/">Toby Fox</a> 
-    </div>
-  </section>
+
+<section id="credits" class="credits">
+  <h2> Credits </h2>
+  <div class="credit-list">
+    Sonic the Hedgehog concept art <i class="fa fa-copyright"></i> <a href="http://www.sega.com/"> SEGA</a> | Undertale GIFS <i class="fa fa-copyright"></i> <a href="http://tobyfox.net/">Toby Fox</a> 
+  </div>
+</section>
 
 
 </body>
