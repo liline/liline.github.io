@@ -29,7 +29,7 @@ p {
 	padding: 50px 100px;
 }
 
-.my-container h2, 
+.my-container h2,
 .my-container h3 {
 	color: #A8258D;
 }
@@ -100,7 +100,18 @@ a:hover {
 	text-align: center;
 }
 
-/* BANNER 
+.fa-cog{
+	-webkit-text-stroke: 1px black;
+	color: whitesmoke;
+	text-shadow:
+	3px 3px 0 #000,
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
+/* BANNER
 -----------------------------------------*/
 .logo {
 	margin: 0 auto;
@@ -127,7 +138,7 @@ img.profile {
 }
 .banner h1 {
 	margin-bottom: 10px;
-	font-size: 5rem; 
+	font-size: 5rem;
 }
 .banner p {
 	font-size: 22px;
@@ -153,7 +164,7 @@ img.profile {
 }
 
 
-/* What I do 
+/* What I do
 -----------------------------------------*/
 .whatIDo {
 	background: url('../images/foxtail.png');
@@ -172,26 +183,26 @@ img.profile {
 	position: initial;
 }
 
-/* Projects 
+/* Projects
 -----------------------------------------*/
 .projects h2 {
 	text-align: center;
 	padding-bottom: 30px;
 }
 
-.project-container { 
-	text-align: center; 
+.project-container {
+	text-align: center;
 }
-.projects ul { 
-	display: inline-block; 
-	text-align: left; 
+.projects ul {
+	display: inline-block;
+	text-align: left;
 }
 
 .project-description {
 	padding-bottom: 30px;
 }
 
-/* FAVOURITES 
+/* FAVOURITES
 -----------------------------------------*/
 .favourites {
 	position: relative;
@@ -223,7 +234,7 @@ img.profile {
 }
 .favourites h2 {
 	z-index: 2;
-} 
+}
 .fav-img {
 	border: 2px solid #FCDCF5;
 	border-radius: 30%;
@@ -235,7 +246,7 @@ img.profile {
 }
 
 
-/* CONTACT 
+/* CONTACT
 -----------------------------------------*/
 .contact {
 	text-align: center;
@@ -246,7 +257,7 @@ img.profile {
 }
 
 
-/* CUSTOM STUFF 
+/* CUSTOM STUFF
 ------ */
 .menu a.active {
 	color: #A8258D;
@@ -298,4 +309,15 @@ img.profile {
 		font-size:11px;
 	}
 
+	/* nav bar*/
+	.nav li {
+		font-size: 2rem;
+	}
+
+	.navbar-toggle .icon-bar {
+		display: block;
+		width: 50px;
+		height: 10px;
+		border-radius: 200px;
+	}
 }

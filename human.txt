@@ -2,13 +2,14 @@
 Liline
 
 /* THANKS */
-* Friends and coworkers 
+* Friends and coworkers
 * Ladies Learning Code Community
 
 /* THANKS ASSETS */
-* Sonic the Hedgehog concept art  SEGA 
+* Sonic the Hedgehog concept art  SEGA
 * Undertale GIFS  Toby Fox
 * foxtail texture| DinPattern.com | EvanEckard.com
+* CSS stroke text | Chris Coyier | https://css-tricks.com/adding-stroke-to-web-text/
 
 /* SITE */
 Last update: Nov 2015
