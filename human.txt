@@ -10,6 +10,7 @@ Liline
 * Undertale GIFS  Toby Fox
 * foxtail texture| DinPattern.com | EvanEckard.com
 * CSS stroke text | Chris Coyier | https://css-tricks.com/adding-stroke-to-web-text/
+* BootStrap Notify | https://github.com/mouse0270/bootstrap-notify
 
 /* SITE */
 Last update: Nov 2015
